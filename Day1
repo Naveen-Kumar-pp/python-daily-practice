@@ -1,6 +1,4 @@
 
-
-
 # Program to find the largest of two numbers
 
 a = int(input("Enter first number: "))
