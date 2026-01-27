@@ -9,10 +9,5 @@
 💻 Tech Stack:
 Python
 
-📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Naveen-Kumar-pp &theme=github_dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=Naveen-Kumar-pp &theme=github_dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Naveen-Kumar-pp &theme=github_dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-![](https://visitcount.itsvg.in/api?id=Naveen-Kumar-pp &icon=0&color=0)
 
