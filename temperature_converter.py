@@ -4,7 +4,7 @@ Description: Converts temperature between Celsius and Fahrenheit
 Author: Naveen
 """
 
-# METHOD 1: TEMPERATURE USING (CONDITIONAL CONDITIONAL)
+# METHOD 1 : TEMPERATURE USING CONDITIONAL STATEMENTS
 
 unit = input("Enter a temperature unit (C/F): ").upper()
 temp = float(input("Enter the temperature: "))
@@ -21,9 +21,9 @@ else:
     print(f"{unit} is an invalid unit of measurement")
 
 
-# METHOD 2: TEMPERATURE USING (Function + Return)
+# METHOD 2 : TEMPERATURE USING FUNCTION + RETURN
 
-def temperature(temp, unit):
+def convert_temperature_return(temp, unit):
     if unit == "C":
         return round((temp * 9/5) + 32, 1), "F"
     elif unit == "F":
@@ -35,16 +35,17 @@ def temperature(temp, unit):
 unit = input("Enter temperature unit (C/F): ").upper()
 temp = float(input("Enter the temperature: "))
 
-result, new_unit = temperature(temp, unit)
+result, new_unit = convert_temperature_return(temp, unit)
 
 if result is not None:
     print(f"Converted temperature: {result}°{new_unit}")
 else:
     print("Invalid unit entered")
 
-# METHOD 3: TEMPERATURE USING (Function)
 
-def convert_temperature():
+# METHOD 3 : TEMPERATURE USING FUNCTION (PRINT)
+
+def convert_temperature_print():
     unit = input("Enter temperature unit (C/F): ").upper()
     temp = float(input("Enter the temperature: "))
 
@@ -56,8 +57,4 @@ def convert_temperature():
         print("Invalid unit entered")
 
 
-convert_temperature()
-
-
-
-
+convert_temperature_print()
